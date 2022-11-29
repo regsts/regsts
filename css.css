@@ -35,8 +35,10 @@ h2 {
   margin-bottom: 57px;
 }
 .mobi {display:none !important;}
-a            {color:inherit; text-decoration:inherit;}
-a.anchor {display:block; position:relative; top:2px; visibility:hidden;}
+a  {color:inherit; text-decoration:inherit;}
+.anchor {display:block; visibility:hidden; position:relative;}
+#portfolio_ {top:-60px;}
+#services_ {top:50px;}
 
 .fix {
   position: fixed;
@@ -355,6 +357,7 @@ justify-content: space-between;
 top: 65px;
 left: 0;
 width: 100%;
+height: 0;
 }
 .owl-carousel .owl-nav button.owl-prev,  .owl-carousel .owl-nav button.owl-next { /* обе кнопки */
 background: none;
@@ -368,6 +371,14 @@ width:17px; height:30px; background-image:url('pic/nleft.png');
 }
 .owl-carousel .owl-nav button.owl-next { /* кнопка Вправо */
 width:17px; height:30px; background-image:url('pic/nright.png');
+}
+.protector {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 1;
 }
 .folder {
   position: relative;
@@ -624,7 +635,7 @@ h2 {
   border-bottom-color: #20EB00;
   color: #20EB00;
 }
-a.anchor {top:0 !important;}
+#portfolio_ {top:0 !important;}
 
 #enterDesk {display:none !important;}
 #enterMobi {
