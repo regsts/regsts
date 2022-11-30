@@ -953,4 +953,13 @@ section {
 
 /* End: Talk Form */
 
+/* В моб.версии показываем отзывы постоянно */
+.block {
+  border: 1px solid #20EB00 !important;
+  background-color: black !important;
+}
+.blockTxt {
+  display: block !important;
+}
+
 } /* End: Mobiles */
